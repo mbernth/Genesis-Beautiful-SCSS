@@ -1,0 +1,59 @@
+/*
+Sidebar
+---------------------------------------------------------------------------------------------------- */
+
+.sidebar {
+	font-size: 16px;
+}
+
+.sidebar p:last-child {
+	margin-bottom: 0;
+}
+
+.sidebar li {
+	margin-bottom: 6px;
+	word-wrap: break-word;
+}
+
+.sidebar ul > li:last-child {
+	margin-bottom: 0;
+}
+
+.sidebar .widget {
+	margin-bottom: 60px;
+}
+
+.sidebar .simple-social-icons ul li a {
+	padding: 15px !important;
+}
+
+/* Split Sidebars
+--------------------------------------------- */
+
+.split-sidebars .aligncenter {
+	margin: 0 auto 12px;
+}
+
+.split-sidebars .widget li li {
+	margin: 0 0 0 20px;
+}
+
+.split-sidebar-left,
+.split-sidebar-right {
+	width: 160px;
+}
+
+.split-sidebar-left {
+	float: left;
+}
+
+.split-sidebar-right {
+	float: right;
+}
+
+/* Bottom Sidebar
+--------------------------------------------- */
+
+.bottom-sidebar {
+	clear: both;
+}

@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1023px) {
+
+	.beautiful-landing .site-inner,
+	.site-inner,
+	.wrap {
+		max-width: 768px;
+	}
+
+	.header-image .site-title a {
+		background-position: center !important;
+		background-size: contain !important;
+		margin: 0;
+	}
+
+	.content,
+	.footer-widgets-1,
+	.footer-widgets-2,
+	.footer-widgets-3,
+	.sidebar-primary,
+	.site-header .widget-area,
+	.title-area {
+		width: 100%;
+	}
+
+	.genesis-nav-menu,
+	.site-description,
+	.site-header .title-area,
+	.site-header .search-form,
+	.site-header .widget-area,
+	.site-title {
+		text-align: center;
+	}
+
+	.footer-widgets-1 {
+		margin-right: 0;
+	}
+	
+}

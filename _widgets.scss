@@ -1,0 +1,43 @@
+/*
+Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.widget,
+.widget li {
+	word-wrap: break-word;
+}
+
+.widget li {
+ 	list-style-type: none;
+}
+
+.widget ol > li {
+	list-style-position: inside;
+	list-style-type: decimal;
+	padding-left: 20px;
+	text-indent: -20px;
+}
+
+.widget li li {
+	margin: 0 0 0 40px;
+}
+
+.widget ul > li:last-child,
+.widget p:last-child {
+	margin-bottom: 0;
+}
+
+
+/* Featured Content
+--------------------------------------------- */
+
+.featured-content .entry {
+	border-bottom: 2px solid #f5f5f5;
+	margin-bottom: 20px;
+	padding: 0 0 24px;
+}
+
+.featured-content .entry-title {
+	font-size: 24px;
+	line-height: 1.2;
+}

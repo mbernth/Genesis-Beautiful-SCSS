@@ -1,0 +1,110 @@
+/*
+	Theme Name: Beautiful Pro Theme
+	Theme URI: http://my.studiopress.com/themes/beautiful/
+	Description: A mobile responsive and HTML5 theme built for the Genesis Framework.
+	Author: StudioPress
+	Author URI: http://www.studiopress.com/
+	
+	Version: 1.1
+ 
+	Tags: black, orange, white, one-column, two-columns, responsive-layout, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, premise-landing-page
+ 
+	Template: genesis
+	Template Version: 2.1
+ 
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+
+
+/* Table of Contents
+
+	- HTML5 Reset
+		- Baseline Normalize
+		- Box Sizing
+		- Float Clearing
+*/
+	@import "reset";
+/*
+	- Defaults
+		- Typographical Elements
+		- Headings
+		- Objects
+		- Gallery
+		- Forms
+		- Tables
+*/
+	@import "defaults";
+/*
+	- Structure and Layout
+		- Site Containers
+		- Column Widths and Positions
+		- Column Classes
+*/
+	@import "structure";
+/*
+	- Common Classes
+		- Genesis
+		- Search Form
+		- Titles
+		- WordPress
+*/
+	@import "common";
+/*
+	- Widgets
+		- Featured Content
+*/
+	@import "widgets";
+/*
+	- Plugins
+		- Genesis eNews Extended
+		- Genesis Latest Tweets
+		- Jetpack
+*/
+	@import "plugins";
+/*
+	- Before Header
+*/
+	@import "before-header";
+/*
+	- Site Header
+		- Title Area
+		- Widget Area
+*/
+	@import "header";
+/*
+	- Site Navigation
+		- Header Navigation
+		- Primary Navigation
+		- Responsive Menu
+*/
+	@import "navigation";
+/*
+	- Content Area
+		- Welcome Message
+		- Entries
+		- After Entry
+		- Pagination
+		- Comments
+*/
+	@import "content";
+/*
+	- Sidebar
+*/
+	@import "sidebar";
+/*
+	- Footer Widgets
+*/
+	@import "footer-widget";
+/*
+	- Site Footer
+*/
+	@import "footer";
+/*
+	- Media Queries
+		- max-width: 1139px */
+	@import "1139";
+/*		- max-width: 1023px */
+	@import "1023";
+/*		- max-width: 767px  */
+	@import "767";

@@ -1,0 +1,68 @@
+/*
+Plugins
+---------------------------------------------------------------------------------------------------- */
+
+/* Genesis eNews Extended
+--------------------------------------------- */
+
+.enews-widget {
+	color: #999;
+}
+
+.enews-widget input {
+	box-shadow: none;
+	margin-bottom: 15px;
+	margin-right: -4px;
+	padding: 14px 24px 15px;
+	width: 100%;
+}
+
+.after-entry .enews-widget input {
+	border: none;
+}
+
+.sidebar .enews-widget input {
+	margin-right: 0;
+	padding: 12px 20px 15px;
+}
+
+.content .enews-widget input:focus {
+	border: none;
+}
+
+.enews-widget input[type="submit"] {
+	margin: 0;
+	padding: 16px 24px 15px;
+}
+
+.enews form + p {
+	margin-top: 24px;
+}
+
+
+/* Genesis Latest Tweets
+--------------------------------------------- */
+
+.latest-tweets ul li {
+	border-bottom: 1px dotted #ddd;
+	margin-bottom: 16px;
+	padding-bottom: 16px;
+}
+
+.latest-tweets .tweet-details a,
+.latest-tweets .tweet-details a:visited {
+	color: #999;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.latest-tweets .tweet-details a:hover {
+	color: #333;
+}
+
+/* Jetpack
+--------------------------------------------- */
+
+img#wpstats {
+	display: none;
+}

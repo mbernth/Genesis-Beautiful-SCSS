@@ -1,0 +1,218 @@
+/*
+Content Area
+---------------------------------------------------------------------------------------------------- */
+
+/* Welcome Message
+--------------------------------------------- */
+
+.welcome-message {
+	border-bottom: 1px dotted #ddd;
+	padding-bottom: 40px;
+	margin-bottom: 80px;
+}
+
+.welcome-message .widget {
+	margin-bottom: 40px;
+}
+
+.welcome-message .widget:last-child {
+	margin-bottom: 0;
+}
+
+.welcome-message .widget-title {
+	text-align: left;
+	text-transform: none;
+}
+
+/* Entries
+--------------------------------------------- */
+
+.entry,
+.page.page-template-page_blog-php .entry {
+	border-bottom: 1px dotted #ddd;
+	padding-bottom: 40px;
+	margin-bottom: 80px;
+}
+
+.content .entry:last-of-type,
+.page.page-template-page_blog-php .entry:last-of-type {
+	border: medium none;
+	margin: 0;
+}
+
+.page .entry,
+.single .entry {
+	border-bottom: none;
+	margin-bottom: 40px;
+	padding: 0;
+}
+
+.page.beautiful-landing .entry {
+	margin-bottom: 0;
+}
+
+.entry-content ol,
+.entry-content p,
+.entry-content ul,
+.quote-caption {
+	margin-bottom: 26px;
+}
+
+.entry-content ol,
+.entry-content ul {
+	margin-left: 40px;
+}
+
+.entry-content ol > li {
+	list-style-type: decimal;
+}
+
+.entry-content ul > li {
+	list-style-type: disc;
+}
+
+.entry-content ol ol,
+.entry-content ul ul {
+	margin-bottom: 0;
+}
+
+.entry-meta {
+	color: #999;
+	font-size: 16px;
+}
+
+.entry-header .entry-meta {
+	margin-bottom: 24px;
+}
+
+.entry-comments-link::before {
+	content: "/";
+	margin: 0 6px 0 2px;
+}
+
+.entry-categories,
+.entry-tags {
+	display: block;
+}
+
+/* After Entry
+--------------------------------------------- */
+
+.after-entry {
+	background-color: #f5f5f5;
+	margin-bottom: 60px;
+	padding: 40px;
+}
+
+.after-entry .widget {
+	margin-bottom: 40px;
+}
+
+.after-entry .widget-title {
+	text-align: left;
+	text-transform: none;
+}
+
+.after-entry p:last-child,
+.after-entry .widget:last-child {
+	margin-bottom: 0;
+}
+
+.after-entry li {
+	margin-bottom: 6px;
+}
+
+/* Pagination
+--------------------------------------------- */
+
+.pagination {
+	border-bottom: 1px dotted #ddd;
+	border-top: 1px dotted #ddd;
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+.archive-pagination {
+	margin-bottom: 80px;
+}
+
+.pagination li {
+	display: inline;
+}
+
+.pagination li a {
+	background-color: #eee;
+	border-radius: 3px;
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	padding: 8px 12px;
+}
+
+.pagination li a:hover,
+.pagination li.active a {
+	background-color: #e5554e;
+	color: #fff;
+}
+
+/* Comments
+--------------------------------------------- */
+
+.entry-comments,
+.entry-comments .comment,
+.entry-comments .comment-reply,
+.ping-list {
+	margin-bottom: 40px;
+}
+
+.entry-comments .comment,
+.ping-list {
+	border-bottom: 1px dotted #ddd;
+}
+
+.ping-list {
+	padding-bottom: 20px;
+}
+
+p.form-submit,
+.entry-comments .children .comment,
+.entry-comments .comment-author {
+	margin: 0;
+}
+
+.entry-comments .comment {
+	clear: both;
+}
+
+p.comment-meta,
+p.form-submit {
+	margin-bottom: 20px;
+}
+
+.entry-comments .children .comment {
+	border: none;
+}
+
+.comment-respond label {
+	display: block;
+}
+
+.comment-respond input[type="email"],
+.comment-respond input[type="text"],
+.comment-respond input[type="url"] {
+	width: 50%
+}
+
+.comment-list li,
+.ping-list li {
+	list-style-type: none;
+}
+
+.comment-list ul.children {
+	margin-left: 40px;
+}
+
+.ping-list .reply {
+	display: none;
+}

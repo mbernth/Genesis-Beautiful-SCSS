@@ -1,0 +1,78 @@
+/*
+Site Header
+---------------------------------------------------------------------------------------------------- */
+
+.site-header .wrap {
+	padding: 40px 0;
+}
+
+.beautiful .site-header-banner {
+	height: 200px;
+}
+
+/* Title Area
+--------------------------------------------- */
+
+.title-area {
+	float: left;
+	padding-top: 10px;
+	width: 320px;
+}
+
+.site-title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+.site-title a,
+.site-title a:hover {
+	color: #333;
+}
+
+.site-description {
+	display: block;
+	height: 0;
+	margin-bottom: 0;
+	text-indent: -9999px;
+}
+
+.header-full-width.header-image .site-title a {
+	background-position: center !important;
+	margin: 0;
+}
+
+/* Logo, hide text */
+
+.header-image .site-header .wrap {
+	padding: 20px 0;
+}
+
+.header-image .site-title a {
+	float: left;
+	min-height: 120px;
+	width: 100%;
+}
+
+/* Full width header, no widgets */
+
+.header-full-width .title-area,
+.header-full-width .site-title {
+	width: 100%;
+}
+
+.header-image .site-title a {
+	display: block;
+	text-indent: -9999px;
+}
+
+/* Widget Area
+--------------------------------------------- */
+
+.site-header .widget-area {
+	float: right;
+	text-align: right;
+	width: 800px;
+}
